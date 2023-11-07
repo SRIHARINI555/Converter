@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #FF69B4, #9370DB);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.header h1{
+   font-size: 45px;
+   font-weight: 500;
+   margin-top: -50px;
+   margin-bottom: 50px;
+}
+
+.header h1 span{
+    color: #8B008B;
+}
+
+textarea{
+   width: 600px;
+   height: 250px;
+   padding-left: 10px;
+   padding-top: 10px;
+   background:linear-gradient(45deg, #FF1493, #663399);
+   color: white;
+   font-size: 15px;
+   border: 0;
+   outline: 0;
+   border-radius: 10px;
+   resize: none; 
+   margin-bottom: 30px;
+}
+
+textarea::placeholder{
+    font-size: 16px;
+    color: #ddd;
+}
+
+.box{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+button{
+    background: #8B008B;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 35px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+button i{
+   width: 15px;
+   margin-right: 10px;
+}
+
+select{
+   flex: 1;
+   background: #663399;
+   color:#fff;
+   height: 45px;
+   padding: 0 20px;
+   outline: 0;
+   border: 0;
+   border-radius: 35px;   
+   appearance: none;
+   background-image: url(DropDown.png);
+   background-repeat: no-repeat;
+   background-size: 40px;
+   background-position-x: calc(100% - 10px);
+   background-position-y: 4px;
+}

@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.back{
+    width: 1355px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 99vh;      /* View point height*/ 
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-400%); 
+    padding-left: 75px;
+    font-size: 50px;
+}
+
+h6{
+    position: absolute;
+    transform: translateY(-400%); 
+    padding-left: 40%;
+    padding-bottom: 45px;
+    font-size: 50px;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+p{
+    position: absolute;
+    transform: translateY(-400%); 
+    padding-left: 33%;
+    padding-bottom: 40px;
+    font-size: 35px;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+.bn31 {
+    position: absolute;
+    transform: translateY(-200%);
+    background-image: linear-gradient(to right, #006175 0%, #00a950 100%);
+    border-radius: 40px;
+    box-sizing: border-box;
+    color: #00a84f;
+    display: block;
+    height: 50px;
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 4px;
+    margin-left: 300px;
+    top:  -130px;
+    position: relative;
+    text-decoration: none;
+    width: 10em;
+    z-index: 2;
+  }
+  
+  .bn31:hover {
+    color: #fff;
+  }
+  
+  .bn31 .bn31span {
+    align-items: center;
+    background: #0e0e10;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: 0.5s ease;
+    width: 100%;
+  }
+  
+  .bn31:hover .bn31span {
+    background: transparent;
+  }
+
+  .bn32 {
+    position: absolute;
+    transform: translateY(-200%);
+    background-image: linear-gradient(to right, #006175 0%, #00a950 100%);
+    border-radius: 40px;
+    box-sizing: border-box;
+    color: #00a84f;
+    display: block;
+    height: 50px;
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 4px;
+    margin-left: 850px;
+    bottom: 170px;
+    position: relative;
+    text-decoration: none;
+    width: 10em;
+    z-index: 2;
+  }
+  
+  .bn32:hover {
+    color: #fff;
+  }
+  
+  .bn32 .bn32span {
+    align-items: center;
+    background: #0e0e10;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: 0.5s ease;
+    width: 100%;
+  }
+  
+  .bn32:hover .bn32span {
+    background: transparent;
+  }
